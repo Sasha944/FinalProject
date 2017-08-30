@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Myriad;
+  src: url(../fonts/myriad.otf);
+}
+footer{
+  background: white;
+}
+.footer-content{
+  padding:15px;
+}
+
+.firstBlock-footer{
+  &-list{
+    list-style: none;
+    padding: 0;
+    &-item{
+      margin-top:6px;
+      &-link{
+        color: #333333;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight:500;
+        font-family:Myriad;
+        transition: .3s;
+        &:hover{
+          text-decoration: none;
+          color: #0052a9;
+        }
+      }
+    }
+  }
+}
+
+.footer-contacts-number{
+  margin-bottom: 5px;
+  font-family: Myriad;
+  font-size: 22px;
+  font-weight: bold;
+  &-icon{
+    font-size: 22px;
+    padding: 3px 4px 2px 6px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid;
+    margin-right: 12px;
+
+  }
+  &-blue {
+    color: #0090ed;
+  }
+}
+
+.footer-span-content{
+  color: #fdb600;
+  font-size: 11px;
+  text-decoration: underline;
+  &:hover{
+    color: #fdb600;
+    text-decoration: none;
+    }
+}
+
+.fa.fa-instagram,.fa.fa-facebook-official,.fa.fa-twitter-square {
+  color: black;
+  font-size: 26px;
+  margin-right:7px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.address{
+  line-height: 27px;
+}

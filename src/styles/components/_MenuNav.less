@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Myriad;
+  src: url(../fonts/myriad.otf);
+}
+@font-face {
+  font-family: Slender;
+  src: url(../fonts/10679.otf);
+}
+.content-nav {
+  background: #008bf0;
+  border-bottom: 2px solid #0050a3;
+  nav.nav.container {
+    .nav-list {
+      list-style: none;
+      text-align: justify;
+      padding: 15px 30px 0;
+      margin-bottom: -3px;
+      &:after {
+        content: '';
+        width: 100%;
+        height: 0;
+        display: inline-block;
+      }
+      &-item {
+        display: inline-block;
+        &-link {
+          color: white;
+          font-size: 16px;
+          font-family: Myriad;
+          font-weight: 500;
+          text-decoration: none;
+          -webkit-transition: .4s;
+          -moz-transition: .4s;
+          -ms-transition: .4s;
+          -o-transition: .4s;
+          transition: .4s;
+          &:hover {
+            text-decoration: none;
+            color: darken(white,20%);
+          }
+        }
+      }
+    }
+  }
+}
+
+.typeSubject{
+  background-image: url("../../images/Rectangle10копия.png");
+  &-list{
+    list-style: none;
+    padding: 20px 0 ;
+    text-align: justify;
+    &:after{
+      content: '';
+      display: inline-block;
+      width: 100%;
+      height: 0;
+    }
+    &-item{
+      display: inline-block;
+      text-align: center;
+      &-link{
+        text-decoration: none;
+        color: white;
+        font-size:19px;
+        font-family: Slender;
+        font-style: italic;
+        text-transform: uppercase;
+        &:hover
+        ,&-focus{
+          color:#fdb200;
+        }
+      }
+    }
+  }
+}
+
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 5px;
+  border-radius: 1px;
+  background: white;
+}
